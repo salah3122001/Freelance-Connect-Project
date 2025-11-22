@@ -281,6 +281,7 @@ This project integrates **Laravel Blade + Bootstrap (AdminLTE)** for the UI, **L
 To ensure messages are delivered instantly via **Pusher**, you must run the Laravel queue worker.
 
   Run this command in a separate terminal:
+  
     php artisan queue:work
     
   **⚠️ This worker must stay running in the background for real-time chat and queued jobs to function properly.**
